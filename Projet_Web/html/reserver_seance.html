@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserver une seance</title>
+    <link src="stylesheet" href="../css/page.css">
+     <script src="../js/page.js"> </script>
+        
+</head>
+<body>
+    <header> 
+        <div>
+           
+            <ul id="menu">
+                <li>
+                    <a href="./acceuil.html">Accueil</a>
+                </li>
+                <li>
+                    <a href="./Film_Affiche.html">Film a voir</a>
+                </li>
+                <li>
+                    <a href="./apropos.html">A propos</a>
+                </li>
+            </ul>
+            <h1>Comme prévu cine ?</h1>
+        </div>
+    </header>
+        <h2>Reserver En 1 clic !</h2>
+        <form method="post" name="ajoutPWD" action="#" class="box" id="addPWD" onsubmit="return false" id="tab">
+            <fieldset name="info1">
+                <legend>Information personnel</legend>
+                <label for="for"> Nom</label>
+                <input type="text" id="nom">
+
+                <label for="for"> Prenom </label>
+                <input type="text" id="prenom"><br>
+
+                <label for="for"> Nombre de places</label>
+                <input type="number" min="0" max="100" id="nombreplace" name="nombreplace"><br>
+                
+                </fieldset>
+
+                <fieldset name="email">
+
+                    <legend>Adresse mail</legend>
+                    <label for="for"> Email</label>
+                    <input type="email" id="email">
+
+
+
+                </fieldset>
+            <fieldset>
+                <legend> Film</legend>
+                <select id="film">
+                    <option value="">--Veuillez choisir votre film--</option>
+                    <option value="Film 1">marvel</option>
+                    <option value="Film 2">maya l'abeille</option>
+                    <option value="Film 3">Cars</option>
+                  </select>
+            </fieldset>
+          <fieldset name="info2">
+            <legend>Heure de la séance </legend>
+            <input type="checkbox" id="dix" name="dix">
+            <label for="for"> 10h00</label>
+  
+            <input type="checkbox" id="onze" name="onze">
+            <label for="for"> 11h00</label>
+  
+            <input type="checkbox" id="douze" name="douze">
+            <label for="for"> 12h00</label>
+  
+            <input type="checkbox" id="treize" name="treize">
+            <label for="for"> 13h00</label>
+          </fieldset>
+          <fieldset name="info3">
+
+            <legend>Date de la séance</legend>
+            
+            <label for="for"> Date</label>
+            <input type="date" id="date"> 
+
+            
+
+            
+          </fieldset> 
+
+          <fieldset>
+
+            <button type="submit" onclick="afficherInformations()">Valider </button>
+            <button type="button">Supprimer</button>
+
+          </fieldset>
+            
+        </form>
+    
+</body>
+</html>
