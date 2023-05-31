@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial;
+  background-color: #f4f4f4;
+  color: #333;
+  
+
+}
+
+
+
+header {
+
+
+  background-color: #333;
+  background-image: url('../image/FOND-GRIS.jpg');
+  color: #fff;
+  padding: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ombre du texte */
+  
+  
+
+}
+
+header img {
+  vertical-align: middle;
+}
+
+#menu {
+  list-style: none;
+  margin-top: 10px;
+}
+
+#menu li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#menu li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  margin-top: 20px;
+  text-align: center;
+  color: darkred;
+}
+
+p {
+  font-size: 18px;
+  margin-top: 20px;
+  text-align: justify;
+  color: white;
+}
+
+/* Contenu de la section */
+section {
+  padding: 20px;
+  background-image: url("../img/cinema.jpg");
+  color: white;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table caption {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: darkred;
+}
+
+table th,
+table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  color: white;
+}
+
+table th {
+  background-color: #333;
+  color: #fff;
+}
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+footer ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+footer ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#bas {
+  text-align: center;
+  background-color: #200;
+  color: white;
+  font-family: monospace;
+  font-size: 30px;
+}
+
+
+fieldset {
+
+    
+    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+    
+    
+  
+
+}
+.classe{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+
+#menu a:hover {
+    background-color: #555;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+.classe {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.box label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.box input[type="text"],
+.box input[type="number"],
+.box select,
+.box input[type="date"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.box button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.box button:hover {
+    background-color: #555;
+}
+
+.box fieldset {
+    margin-bottom: 20px;
+    border: none;
+}
+
+.box legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.box fieldset input[type="checkbox"] {
+    margin-right: 5px;
+    
+}
+
+fieldset[name="info2"],
+fieldset[name="info3"] {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+fieldset[name="info2"] {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  fieldset[name="info2"] input[type="checkbox"],
+  fieldset[name="info2"] label {
+    margin-right: 10px;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+  }
+
+  fieldset[name="info1"] label {
+    text-align: left;
+    font-size: 14px;
+  }
+  

@@ -5,59 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reserver une seance</title>
-    <link src="stylesheet" href="../css/page.css">
-     <script src="../js/page.js"> </script>
-        
+    <link rel="stylesheet" href="../css/page.css"/>
+    <script src="../js/page.js"></script>
+
 </head>
 <body>
     <header> 
         <div>
-           
+            <img src="../image/logo-png.png" width="250" height="100"/>
             <ul id="menu">
                 <li>
                     <a href="./acceuil.html">Accueil</a>
                 </li>
                 <li>
-                    <a href="./Film_Affiche.html">Film a voir</a>
-                </li>
+                    <a href="./reserver_seance.html">Reserver une séance</a>
+                </li> 
                 <li>
-                    <a href="./apropos.html">A propos</a>
+                    <a href="./Film_Affiche.html">Film a voir</a>
                 </li>
             </ul>
             <h1>Comme prévu cine ?</h1>
         </div>
     </header>
         <h2>Reserver En 1 clic !</h2>
-        <form method="post" name="ajoutPWD" action="#" class="box" id="addPWD" onsubmit="return false" id="tab">
+        <div class="classe">
+
+        
+        <form method="post" name="ajoutPWD" action="#" class="box" id="addPWD" onsubmit="return false">
             <fieldset name="info1">
                 <legend>Information personnel</legend>
                 <label for="for"> Nom</label>
-                <input type="text" id="nom">
+                <input type="text" id="site">
 
                 <label for="for"> Prenom </label>
-                <input type="text" id="prenom"><br>
+                <input type="text" id="site"><br>
 
                 <label for="for"> Nombre de places</label>
-                <input type="number" min="0" max="100" id="nombreplace" name="nombreplace"><br>
-                
-                </fieldset>
-
-                <fieldset name="email">
-
-                    <legend>Adresse mail</legend>
-                    <label for="for"> Email</label>
-                    <input type="email" id="email">
-
-
-
-                </fieldset>
+                <input type="number" min="0" max="100" id="nombreplace" name="nombreplace">
+            </fieldset>
             <fieldset>
                 <legend> Film</legend>
                 <select id="film">
                     <option value="">--Veuillez choisir votre film--</option>
-                    <option value="Film 1">marvel</option>
-                    <option value="Film 2">maya l'abeille</option>
-                    <option value="Film 3">Cars</option>
+                    <option value="Usage personnel">marvel</option>
+                    <option value="Usage professionel">maya l'abeille</option>
+                    <option value="mUsage mixte">Cars</option>
                   </select>
             </fieldset>
           <fieldset name="info2">
@@ -78,22 +70,38 @@
 
             <legend>Date de la séance</legend>
             
-            <label for="for"> Date</label>
-            <input type="date" id="date"> 
-
             
-
+            <input type="date" id="dateg"> 
             
-          </fieldset> 
-
-          <fieldset>
-
-            <button type="submit" onclick="afficherInformations()">Valider </button>
-            <button type="button">Supprimer</button>
-
           </fieldset>
+          <fieldset>
+          <button
+
+            onclick="afficherInformation()">Valider
+            
+          </button>
+          <button>
+            Supprimer
+          </button>
+
+        </fieldset>
+
+        
+
+        
+          
             
         </form>
+        </div>
+        <footer>
+
+            <ul id= "menu">
+                <li>
+                    <a href="apropos.html">A propos de nous </a>
+                </li>
+            </ul>
+    
+        </footer>
     
 </body>
 </html>

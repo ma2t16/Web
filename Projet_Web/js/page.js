@@ -22,15 +22,4 @@ function afficherInformations() {
 
 
    alert("Vous recevrez un mail de confirmation à l'adresse suivante : " + document.getElementById('email').value);
-
-
-
-
-
-
-  }
-
-
-
-
-
+}
